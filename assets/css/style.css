@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(122,210,240);
+}
+
+p{
+    font-family: Arial, Verdana, sans-serif;
+}
+
+.nav{
+    background-color:darkolivegreen;
+    position: fixed;
+    width: 100%;
+    padding-left: 16px;
+    padding-bottom: 8px;
+}
+
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.nav li {
+    float:left;
+    padding-right: 5%;
+}
+
+.portrait{
+    max-width: 250px;
+    width: 100%;
+}
+
+.gameLogo{
+    max-width: 500px;
+    width: 100%;
+}
+
+.content{
+    background-color: black;
+    padding-top: 150px;
+    padding-right: 20%;
+}
+
+.gameTitle{
+    background-color: black;
+    color:white;
+}
